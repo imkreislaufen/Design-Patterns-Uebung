@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="74cm" height="26cm" viewBox="-349 62 1461 516" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="780.201" y="82.1716" width="148.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780.201" y="82.1716" width="148.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="854.501" y="102.172">Bahnhof</text>
+    <rect style="fill: #ffffff" x="780.201" y="110.172" width="148.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780.201" y="110.172" width="148.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="783.201" y="123.372">+stadtName: String</text>
+    <rect style="fill: #ffffff" x="780.201" y="130.172" width="148.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="780.201" y="130.172" width="148.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="488" y="85" width="94.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="488" y="85" width="94.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="535.35" y="105">Bahnsteig</text>
+    <rect style="fill: #ffffff" x="488" y="113" width="94.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="488" y="113" width="94.7" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="491" y="126.2">+länge: int</text>
+    <rect style="fill: #ffffff" x="488" y="133" width="94.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="488" y="133" width="94.7" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="62" y="63" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="62" y="63" width="318" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="221" y="83">Gleis</text>
+    <rect style="fill: #ffffff" x="62" y="91" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="62" y="91" width="318" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="65" y="104.2">+Nummer: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="65" y="120.2">+istBelegt: boolean</text>
+    <rect style="fill: #ffffff" x="62" y="127" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="62" y="127" width="318" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="65" y="140.2">+zugEinfahrt(istBelegt:boolean): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="65" y="156.2">+zugAusfahrt(istBelegt:boolean): boolean</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="522.272" y="236.946" width="148.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="522.272" y="236.946" width="148.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="596.572" y="256.946">Geschäft</text>
+    <rect style="fill: #ffffff" x="522.272" y="264.946" width="148.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="522.272" y="264.946" width="148.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="525.272" y="278.146">+einnahmen: double</text>
+    <rect style="fill: #ffffff" x="522.272" y="284.946" width="148.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="522.272" y="284.946" width="148.6" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="631.579" y="311.899" width="479.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="631.579" y="311.899" width="479.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="871.429" y="331.899">Bäcker</text>
+    <rect style="fill: #ffffff" x="631.579" y="339.899" width="479.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="631.579" y="339.899" width="479.7" height="8"/>
+    <rect style="fill: #ffffff" x="631.579" y="347.899" width="479.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="631.579" y="347.899" width="479.7" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="634.579" y="361.099">+preisNennen(gekaufteBrötchen:int,gekaufteBrezel:int): double</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="89.3955" y="312.814" width="456.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="89.3955" y="312.814" width="456.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="317.695" y="332.814">Kiosk</text>
+    <rect style="fill: #ffffff" x="89.3955" y="340.814" width="456.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="89.3955" y="340.814" width="456.6" height="8"/>
+    <rect style="fill: #ffffff" x="89.3955" y="348.814" width="456.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="89.3955" y="348.814" width="456.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="92.3955" y="362.014">+preisNennen(gekaufteCola:int,gekaufteZeitung:int): double</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="618" y="505" width="117.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="618" y="505" width="117.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="676.9" y="525">Produkt</text>
+    <rect style="fill: #ffffff" x="618" y="533" width="117.8" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="618" y="533" width="117.8" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="621" y="546.2">+preis: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="621" y="562.2">+anzahl: int</text>
+    <rect style="fill: #ffffff" x="618" y="569" width="117.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="618" y="569" width="117.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="706.584" y="410.586" width="82.95" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="706.584" y="410.586" width="82.95" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="748.059" y="430.586">Brötchen</text>
+    <rect style="fill: #ffffff" x="706.584" y="438.586" width="82.95" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="706.584" y="438.586" width="82.95" height="8"/>
+    <rect style="fill: #ffffff" x="706.584" y="446.586" width="82.95" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="706.584" y="446.586" width="82.95" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="885.981" y="411.586" width="60.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="885.981" y="411.586" width="60.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="916.081" y="431.586">Brezel</text>
+    <rect style="fill: #ffffff" x="885.981" y="439.586" width="60.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="885.981" y="439.586" width="60.2" height="8"/>
+    <rect style="fill: #ffffff" x="885.981" y="447.586" width="60.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="885.981" y="447.586" width="60.2" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="245.024" y="412" width="45.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="245.024" y="412" width="45.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="267.549" y="432">Cola</text>
+    <rect style="fill: #ffffff" x="245.024" y="440" width="45.05" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="245.024" y="440" width="45.05" height="8"/>
+    <rect style="fill: #ffffff" x="245.024" y="448" width="45.05" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="245.024" y="448" width="45.05" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="355.693" y="410.172" width="71.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="355.693" y="410.172" width="71.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="391.443" y="430.172">Zeitung</text>
+    <rect style="fill: #ffffff" x="355.693" y="438.172" width="71.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="355.693" y="438.172" width="71.5" height="8"/>
+    <rect style="fill: #ffffff" x="355.693" y="446.172" width="71.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="355.693" y="446.172" width="71.5" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-347.423" y="65.2874" width="356.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-347.423" y="65.2874" width="356.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:oblique;font-weight:normal" x="-169.173" y="85.2874">Person</text>
+    <rect style="fill: #ffffff" x="-347.423" y="93.2874" width="356.5" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-347.423" y="93.2874" width="356.5" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="106.487">+position: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="122.487">+amBahnsteig: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="138.487">+imGeschäft: boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="154.487">-geld: double</text>
+    <rect style="fill: #ffffff" x="-347.423" y="161.287" width="356.5" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-347.423" y="161.287" width="356.5" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="174.487">+bahnhofBetreten(position:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="190.487">+bahnhofVerlassen(): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="206.487">+positionÄndern(neuePosition:String): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-344.423" y="222.487">+kaufen(einkauf:Produkt[]): boolean</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-313.098" y="365.755" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-313.098" y="365.755" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-234.948" y="385.755">Bahnangestellter</text>
+    <rect style="fill: #ffffff" x="-313.098" y="393.755" width="156.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-313.098" y="393.755" width="156.3" height="8"/>
+    <rect style="fill: #ffffff" x="-313.098" y="401.755" width="156.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-313.098" y="401.755" width="156.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-310.098" y="414.955">+putzen(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-310.098" y="430.955">+reparieren(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-171.009" y="464.75" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-171.009" y="464.75" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="26.4908" y="484.75">Reisender</text>
+    <rect style="fill: #ffffff" x="-171.009" y="492.75" width="395" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-171.009" y="492.75" width="395" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-168.009" y="505.95">-hatTicket: boolean</text>
+    <rect style="fill: #ffffff" x="-171.009" y="512.75" width="395" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-171.009" y="512.75" width="395" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-168.009" y="525.95">+ticketKaufen(hatTicket:boolean): boolean</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-168.009" y="541.95">+einsteigen(hatTicket:boolean,amBahnsteig:boolean,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-168.009" y="557.95">            istBelegt:boolean): boolean</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="583.692,113 731.348,113 731.348,110.172 754.028,110.172 "/>
+    <polygon style="fill: #000000" points="779.199,110.172 765.199,114.972 751.199,110.172 765.199,105.372 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="779.199,110.172 765.199,114.972 751.199,110.172 765.199,105.372 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="587.692" y="109">-bahnsteige</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="587.692" y="125">1..*</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="747.199" y="106.172">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="461.823,113 471.994,113 382.01,113 381.01,113 "/>
+    <polygon style="fill: #000000" points="486.994,113 472.994,117.8 458.994,113 472.994,108.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="486.994,113 472.994,117.8 458.994,113 472.994,108.2 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="454.994" y="109">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="385.01" y="109">-gleise</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="385.01" y="125">1..2</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="854.501,164.35 854.501,232.493 317.695,232.493 317.695,311.807 "/>
+    <polygon style="fill: #ffffff" points="854.501,139.179 859.301,153.179 854.501,167.179 849.701,153.179 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="854.501,139.179 859.301,153.179 854.501,167.179 849.701,153.179 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="865.501" y="151.179">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.695" y="291.807">-kioske</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.695" y="307.807">1..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="854.501,164.35 854.501,232.036 871.429,232.036 871.429,310.892 "/>
+    <polygon style="fill: #ffffff" points="854.501,139.179 859.301,153.179 854.501,167.179 849.701,153.179 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="854.501,139.179 859.301,153.179 854.501,167.179 849.701,153.179 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="865.501" y="151.179">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="875.429" y="290.892">-bäcker</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="875.429" y="306.892">1..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="596.572,312.189 596.572,339.899 630.571,339.899 "/>
+    <polygon style="fill: #ffffff" points="604.572,312.189 596.572,296.189 588.572,312.189 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="604.572,312.189 596.572,296.189 588.572,312.189 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="596.572,312.189 596.572,340.814 547.002,340.814 "/>
+    <polygon style="fill: #ffffff" points="604.572,312.189 596.572,296.189 588.572,312.189 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="604.572,312.189 596.572,296.189 588.572,312.189 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="391.443,409.187 391.443,377.5 317.695,377.5 317.695,369.797 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="395.443" y="405.187">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.695" y="381.797">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="317.695,369.797 317.695,377.5 267.549,377.5 267.549,411.019 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="321.695" y="381.797">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="271.549" y="407.019">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="871.429,368.874 871.429,403.501 748.059,403.501 748.059,409.607 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="875.429" y="380.874">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="752.059" y="405.607">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="871.429,368.874 871.429,403.5 916.081,403.5 916.081,410.595 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="875.429" y="380.874">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="920.081" y="406.595">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="676.9,485.755 676.9,471.584 391.443,471.584 391.443,455.177 "/>
+    <polygon style="fill: #ffffff" points="668.9,485.755 676.9,501.755 684.9,485.755 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="668.9,485.755 676.9,501.755 684.9,485.755 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="676.9,485.755 676.9,472.498 267.549,472.498 267.549,457.006 "/>
+    <polygon style="fill: #ffffff" points="668.9,485.755 676.9,501.755 684.9,485.755 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="668.9,485.755 676.9,501.755 684.9,485.755 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="676.9,486.764 676.9,472.293 916.081,472.293 916.081,455.586 "/>
+    <polygon style="fill: #ffffff" points="668.9,486.764 676.9,502.764 684.9,486.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="668.9,486.764 676.9,502.764 684.9,486.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="676.9,486.764 676.9,471.793 748.059,471.793 748.059,454.586 "/>
+    <polygon style="fill: #ffffff" points="668.9,486.764 676.9,502.764 684.9,486.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="668.9,486.764 676.9,502.764 684.9,486.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-169.173,248.529 -169.173,355.018 26.4908,355.018 26.4908,463.744 "/>
+    <polygon style="fill: #ffffff" points="-161.173,248.529 -169.173,232.529 -177.173,248.529 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-161.173,248.529 -169.173,232.529 -177.173,248.529 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-169.173,248.529 -169.173,305.519 -234.948,305.519 -234.948,364.746 "/>
+    <polygon style="fill: #ffffff" points="-161.173,248.529 -169.173,232.529 -177.173,248.529 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-161.173,248.529 -169.173,232.529 -177.173,248.529 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="62,117 62,304.984 -169.173,304.984 -169.173,230.217 "/>
+    <polygon style="fill: #000000" points="-51.5867,304.984 -51.5867,296.984 -43.5867,300.984 "/>
+  </g>
+</svg>

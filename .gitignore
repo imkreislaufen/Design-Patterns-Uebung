@@ -1,0 +1,12 @@
+﻿*.class
+*~
+*.db
+*.classpath
+*.autosave
+**/.classpath
+**/bin/
+/bin/
+**/.settings/*
+*.ser
+*.zip
+*.rar
